@@ -19,7 +19,7 @@ apply plugin: 'io.spring.dependency-management' //스프링 부트의 의존성�
 
 group 'org.example'
 version '1.0-SNAPSHOT'
-sourceCompatibility = 11
+sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
@@ -33,6 +33,10 @@ dependencies {
     의 버전을 따라가게 된다.
      */
     compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('com.h2database:h2')
+    compile('org.projectlombok:lombok')
     testCompile('org.springframework.boot:spring-boot-starter-test')
+
 
 }
