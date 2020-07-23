@@ -28,7 +28,7 @@ public class PostsApiController {
         return postsService.findById(id);
     }
 
-    //임시 테스트용 주석(지우기)
+    //임시 테스트용 주석(지우기) -- 다시 테스트 --english
     @DeleteMapping("/api/v1/posts/{id}")
     public Long delete(@PathVariable Long id) {
         postsService.delete(id);
