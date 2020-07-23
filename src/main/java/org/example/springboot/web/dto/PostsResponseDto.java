@@ -18,3 +18,4 @@ public class PostsResponseDto {
         this.author = entity.getAuthor();
     }
 }
+
