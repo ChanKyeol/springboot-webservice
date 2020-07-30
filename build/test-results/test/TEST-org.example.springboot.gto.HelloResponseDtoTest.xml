@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.springboot.gto.HelloResponseDtoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-28T15:03:38" hostname="DESKTOP-DG5FISV" time="0.055">
-  <properties/>
-  <testcase name="롬북_기능_테스트" classname="org.example.springboot.gto.HelloResponseDtoTest" time="0.055"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
